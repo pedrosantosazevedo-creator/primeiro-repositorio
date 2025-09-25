@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(93, 139, 213); /* cor de fundo da página*/
-    color:midnightblue; /* cor da escrita */
+    background-color: rgb(191, 17, 17); /* cor de fundo da página*/
+    color:rgb(255, 255, 255); /* cor da escrita */
 }
 
 header {
@@ -18,5 +18,5 @@ h1 {
 
 p {
     font-size: 16px;
-    color: aliceblue;
+    color: alicered;
 }
