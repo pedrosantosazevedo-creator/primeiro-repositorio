@@ -1,6 +1,7 @@
 body {
     background-color: rgb(191, 17, 17); /* cor de fundo da página*/
     color:rgb(255, 255, 255); /* cor da escrita */
+    font-family: "Homemade Apple",sans-serif;
 }
 
 header {
