@@ -2,6 +2,8 @@ body {
     background-color: rgb(191, 17, 17); /* cor de fundo da página*/
     color:rgb(255, 255, 255); /* cor da escrita */
     font-family: "Homemade Apple",sans-serif;
+    margin: 0px;
+    margin-bottom: 100px;
 }
 
 header {
@@ -11,7 +13,7 @@ header {
     color: alicered;
 }
 
-section {
+.chamada {
      background-color: rgb(223, 156, 12);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -31,5 +33,31 @@ h1 {
 
 p {
     font-size: 16px;
-    color: alicered;
+    color: white;
+}
+
+.categoria {
+    padding: left 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green
+}
+
+.categoria h2 {
+    color: darkorchid;
 }
